@@ -1,0 +1,11 @@
+import express from 'express';
+
+
+
+const app =express();
+
+
+
+app.listen(3000,(res,req) => {
+  console.log("Sever online at port 3000");
+})
